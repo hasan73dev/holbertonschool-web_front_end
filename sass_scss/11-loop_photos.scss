@@ -1,4 +1,4 @@
-@use 'variables';
+@use 'list-names';
 
 @each $name in $list-names {
   .photo-#{$name} {
