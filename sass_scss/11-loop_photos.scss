@@ -1,6 +1,6 @@
 @use 'variables';
     
-@each $name in $list-names {
+@each $name in variables.$list-names {
   .photo-#{$name} {
     background-image: url("#{$name}.jpg") no-repeat;
   }
